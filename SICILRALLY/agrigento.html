@@ -1,0 +1,104 @@
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SicilRally</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="brand">
+    <a href="index.html">
+    <span class="brand-name">SICILRALLY</span></a>
+    <a href="index.html">
+    <img src="assets/logo.png" alt="SicilRally logo" class="brand-logo">
+    </a>
+  </div>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li class="province-item">
+        <a href="#" class="province-link">PROVINCE</a>
+        <div class="overlay-open"></div>
+        <div class="piazze-tendina">
+          <div class="piazze-tendina__header">
+            <span>A-Z</span>
+            <p class="overlay-close" aria-label="Chiudi">✕</p>
+          </div>
+          <ul class="piazze-tendina__lista">
+            <li><a href="agrigento.html" class="piazze-tendina__link" style="--i:0">AGRIGENTO</a></li>
+            <li><a href="caltanissetta.html" class="piazze-tendina__link" style="--i:1">CALTANISSETTA</a></li>
+            <li><a href="messina.html" class="piazze-tendina__link" style="--i:2">MESSINA</a></li>
+            <li><a href="palermo.html" class="piazze-tendina__link" style="--i:3">PALERMO</a></li>
+            <li><a href="ragusa.html" class="piazze-tendina__link" style="--i:4">RAGUSA</a></li>
+            <li><a href="trapani.html" class="piazze-tendina__link" style="--i:5">TRAPANI</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="eventi.html">EVENTI</a></li>
+      <li><a href="info.html">INFO</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+
+  <img src="assets/agrigento_2.jpg" 
+       alt="Targa Florio" 
+       class="hero-img">
+
+  <div class="hero-overlay">
+      <h1>agrigento</h1>
+  </div>
+
+</section>
+
+<!-- TESTO INTRODUTTIVO -->
+
+<section class="info-text">
+
+<p>
+La provincia di Agrigento rappresenta uno dei territori più affascinanti per il rally siciliano grazie alle sue strade panoramiche, ai continui cambi di ritmo e ai percorsi che attraversano colline, campagne e piccoli borghi storici. Le prove speciali agrigentine sono spesso caratterizzate da tratti veloci alternati a sezioni più tecniche, dove precisione e concentrazione diventano fondamentali. Il calore del pubblico e la forte passione locale per il motorsport rendono ogni manifestazione un evento molto sentito, capace di unire spettacolo, adrenalina e tradizione automobilistica.
+</p>
+
+</section>
+
+
+
+<!-- EVENTI AGRIGENTO -->
+<section class="events-section" id="eventi">
+  <h2 class="section-title">EVENTI</h2>
+  <div class="carousel">
+    <div class="carousel-event carousel-track">
+      <div class="carousel-page" id="page-1">
+
+        <article class="event-card"> 
+            <a href="monti sicari.html">
+          <div class="event-card__img-wrap">
+            <img src="assets/monti_sicani_agrigentp_2025.jpg" alt="monti sicani" class="event-card__img">
+          </div>
+          <div class="event-card__body">
+            <h3 class="event-card__title">Rally monti sicani</h3>
+            <p class="event-card__loc"><img src="assets/map-pin.svg" width="16" height="16"> centro comerciale</p>
+            <hr class="event-card__divider">
+            <p class="event-card__date"><img src="assets/calendar.svg" width="16" height="16"> 8 / 9 Marzo 2025</p>
+          </div>
+          </a>
+        </article>
+
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <img src="assets/logo.png" alt="Logo" class="footer-logo">
+</footer>
+<script type="module" src="script.js"></script>
+</body>
+</html>
